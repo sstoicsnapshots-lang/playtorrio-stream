@@ -32,12 +32,3 @@ npm start        # run the built server
 npm run dmg      # -> dist-dmg/PlayTorrio.dmg
 ```
 
-A self-contained, ad-hoc-signed `.dmg` (~43 MB). The `.app` bundles a Node
-runtime, the built server and the web assets; on launch it runs a local server
-and opens the app in your default browser. No Electron, no Chromium.
-
-- First launch after downloading: right-click the app → **Open** (ad-hoc
-  signatures need this once).
-- Real signing: `SIGN_ID="Developer ID Application: …" npm run dmg`.
-- Custom icon: `ICON_SRC=/path/to/icon.png npm run dmg`.
-- Node version: `NODE_VERSION=22.14.0 npm run dmg`.
