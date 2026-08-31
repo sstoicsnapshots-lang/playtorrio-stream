@@ -32,3 +32,8 @@ npm start        # run the built server
 npm run dmg      # -> dist-dmg/PlayTorrio.dmg
 ```
 
+
+
+
+<img width="1582" height="961" alt="Screenshot 2026-09-01 at 1 02 33 AM" src="https://github.com/user-attachments/assets/67cae6f3-9690-4128-8555-bf0c615c9c29" />
+
